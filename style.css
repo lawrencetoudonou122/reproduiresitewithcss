@@ -1,0 +1,110 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+    margin: 0%;
+    font-size: 13px;
+}
+
+.des{
+    width: 5px;
+    height: 2px;
+  
+}
+
+
+.propre{
+    width: auto;
+    line-height-step: 100px;
+    margin-left: 500px;
+    margin-top: 0.5px;
+    padding-bottom: 200px;
+    padding: 35px;
+    padding-bottom:50px;
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    background-color:rgba(0,0,0,0.5);
+    border-bottom-left-radius: 200px;
+}
+
+.p0{
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.p1, .p2, .p3 {
+     display: inline-block;
+     margin: 20px;
+     padding: 10px;
+     float:  right;
+     border-radius:  16px;
+     background-color: #fff;
+}
+
+
+.p1:hover,.p2:hover, .p3:hover {
+    transition: width 2s,  background-color 1s;
+    background-color: blueviolet;
+}
+
+.fem {
+    display: inline-block;
+    margin-right:  100px;
+    scroll-margin-block: 100px;
+}
+
+.rec {
+    width: 100%;
+    height: 109px;
+    background-color: #102881;
+}
+.propre:hover {
+    transition: width 2s,  background-color 3s;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 8px 8px rgba(0,0,0,0.5);
+}
+.heu{
+    display: inline-block;
+    margin-left:  100px;
+    border-radius:64px;
+
+}
+
+.boss{
+    display: inline-block;
+    margin-left:  230px;
+    border-radius:64px;
+}
+
+.respect{
+    display: inline-block;
+    margin-left:  100px;
+    border-radius:64px;
+   
+
+}
+.lastpush{
+    display: inline-block;
+    margin-left:  230px;
+    padding-top: 50px;
+    border-radius:42px;
+}
+.amour{
+    display: inline-block;
+    margin-top: -300px;
+    margin-left: 200px;
+    border-radius:64px;
+}
+
+.heu:hover,.boss:hover, .respect:hover, .amour:hover {
+    transition: width 2s,  background-color 1s;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 8px 8px rgba(0,0,0,0.5);
+}
